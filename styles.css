@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+footer {
+  background-color: #212529;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.btn-primary,
+.btn-success {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.modal-content {
+  border-radius: 15px;
+}
